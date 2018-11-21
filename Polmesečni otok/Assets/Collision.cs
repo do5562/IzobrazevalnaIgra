@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Collision : MonoBehaviour {
-    protected static int counter;
+    public  int counter;
     public Text scoreText;
     public Text Fulltext;
     
@@ -35,7 +35,7 @@ public class Collision : MonoBehaviour {
         
     }
     
-    void SetScoreText()
+    public void SetScoreText()
     {
         scoreText.text = "Score: " + counter.ToString();
         if (counter >= 7)
