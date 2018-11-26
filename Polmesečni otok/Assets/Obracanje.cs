@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class Obracanje : MonoBehaviour {
     public Transform target;
-	// Use this for initialization
-	void Start () {
+    public float speed = 10f;
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (target != null)
-        {
-            transform.LookAt(target);
-        }
-	}
+        transform.Rotate(new Vector3(0, -1, 0) * 50 * Time.deltaTime, Space.Self);
+    }
 }
