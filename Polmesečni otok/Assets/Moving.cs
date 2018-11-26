@@ -10,7 +10,7 @@ public class Moving : MonoBehaviour {
     public float gravity = 20.0F;
     public float rotateSpeed = 3.0F;
     private Vector3 moveDirection = Vector3.zero;
-
+    private Vector3 lookat = new Vector3(0, -1, 0);
     // Use this for initialization
     void Start()
     {
@@ -26,6 +26,7 @@ public class Moving : MonoBehaviour {
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
+            //transform.LookAt(lookat);
             transform.position -= transform.forward * moveSpeed;
         }
         if (Input.GetKey(KeyCode.LeftArrow))
