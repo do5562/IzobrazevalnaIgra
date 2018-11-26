@@ -4,32 +4,41 @@ using UnityEngine;
 
 public class Moving : MonoBehaviour {
 
-    private Rigidbody rgbd;
-    public float speed;
-	// Use this for initialization
-	void Start () {
-        //rgbd = GetComponent < Rigidbody > ();
-        speed = 20;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-        //float moveHorizontal = Input.GetAxis("Horizontal");
-        //float moveVertical = Input.GetAxis("Vertical");
-        //transform.Translate(1f*Time.deltaTime,0f,0f);
-        //Vector3 move = new Vector3(moveHorizontal, moveVertical);
-        //rgbd.AddForce(move * speed);
-        //transform.Translate(speed*Input.GetAxis("Horizontal")* Time.deltaTime, 0f, speed*Input.GetAxis("Vertical")*Time.deltaTime);
-        float moveHorizontal = Input.GetAxisRaw("Horizontal");
-        float moveVertical = Input.GetAxisRaw("Vertical");
 
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
-        if (movement != Vector3.zero)
-        {
-            transform.rotation = Quaternion.LookRotation(movement);
-            transform.Translate(movement * speed * Time.deltaTime, Space.World);
-        }
-       
+    public float moveSpeed = 0.3F;
+    public float jumpSpeed = 8.0F;
+    public float gravity = 20.0F;
+    public float rotateSpeed = 3.0F;
+    private Vector3 moveDirection = Vector3.zero;
+
+    // Use this for initialization
+    void Start()
+    {
 
     }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            transform.position += transform.forward * moveSpeed;
+        }
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            transform.position -= transform.forward * moveSpeed;
+        }
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            transform.Rotate(0, -2, 0);
+            //transform.position -= transform.right * moveSpeed;
+        }
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            transform.Rotate(0, 2, 0);
+            //transform.position += transform.right * moveSpeed;
+        }
+
+    }
+
 }
