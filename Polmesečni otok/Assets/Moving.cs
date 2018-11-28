@@ -4,42 +4,42 @@ using UnityEngine;
 
 public class Moving : MonoBehaviour {
 
+    Rigidbody m_Rigidbody;
+    float m_Speed;
 
-    public float moveSpeed = 0.3F;
-    public float jumpSpeed = 8.0F;
-    public float gravity = 20.0F;
-    public float rotateSpeed = 3.0F;
-    private Vector3 moveDirection = Vector3.zero;
-    private Vector3 lookat = new Vector3(0, -1, 0);
-    // Use this for initialization
     void Start()
     {
-
+        //Fetch the Rigidbody component you attach from your GameObject
+        m_Rigidbody = GetComponent<Rigidbody>();
+        //Set the speed of the GameObject
+        m_Speed = 20.0f;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            transform.position += transform.forward * moveSpeed;
-        }
-        if (Input.GetKey(KeyCode.DownArrow))
-        {
-            //transform.LookAt(lookat);
-            transform.position -= transform.forward * moveSpeed;
-        }
-        if (Input.GetKey(KeyCode.LeftArrow))
-        {
-            transform.Rotate(0, -2, 0);
-            //transform.position -= transform.right * moveSpeed;
-        }
-        if (Input.GetKey(KeyCode.RightArrow))
-        {
-            transform.Rotate(0, 2, 0);
-            //transform.position += transform.right * moveSpeed;
+            //Move the Rigidbody forwards constantly at speed you define (the blue arrow axis in Scene view)
+            m_Rigidbody.velocity = transform.forward * m_Speed;
         }
 
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            //Move the Rigidbody backwards constantly at the speed you define (the blue arrow axis in Scene view)
+            m_Rigidbody.velocity = -transform.forward * m_Speed;
+        }
+
+        if (Input.GetKey(KeyCode.RightArrow))
+        {
+            //Rotate the sprite about the Y axis in the positive direction
+            transform.Rotate(new Vector3(0, 1, 0) * Time.deltaTime * m_Speed, Space.World);
+        }
+
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            //Rotate the sprite about the Y axis in the negative direction
+            transform.Rotate(new Vector3(0, -1, 0) * Time.deltaTime * m_Speed, Space.World);
+        }
     }
 
 }

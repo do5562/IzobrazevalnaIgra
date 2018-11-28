@@ -5380,6 +5380,60 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 676390633}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &677172494
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 116994, guid: 86bd66a1aad581444a3c8b4999ca67b1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1532396474}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1323578191}
+  - component: {fileID: 677172496}
+  - component: {fileID: 677172495}
+  m_Layer: 0
+  m_Name: 9
+  m_TagString: Slot
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &677172495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 11416994, guid: 86bd66a1aad581444a3c8b4999ca67b1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1532396474}
+  m_GameObject: {fileID: 677172494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: a0ced9aa54bc67d4e85508159e98eb42, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &677172496
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 22216994, guid: 86bd66a1aad581444a3c8b4999ca67b1,
+    type: 2}
+  m_PrefabInternal: {fileID: 1532396474}
+  m_GameObject: {fileID: 677172494}
+  m_CullTransparentMesh: 0
 --- !u!1 &681293964
 GameObject:
   m_ObjectHideFlags: 0
@@ -8411,60 +8465,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1048193963}
   m_CullTransparentMesh: 0
---- !u!1 &1054760476
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 116994, guid: 86bd66a1aad581444a3c8b4999ca67b1,
-    type: 2}
-  m_PrefabInternal: {fileID: 1532396474}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1323578191}
-  - component: {fileID: 1054760478}
-  - component: {fileID: 1054760477}
-  m_Layer: 0
-  m_Name: 9
-  m_TagString: Slot
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1054760477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 11416994, guid: 86bd66a1aad581444a3c8b4999ca67b1,
-    type: 2}
-  m_PrefabInternal: {fileID: 1532396474}
-  m_GameObject: {fileID: 1054760476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: a0ced9aa54bc67d4e85508159e98eb42, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
---- !u!222 &1054760478
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 22216994, guid: 86bd66a1aad581444a3c8b4999ca67b1,
-    type: 2}
-  m_PrefabInternal: {fileID: 1532396474}
-  m_GameObject: {fileID: 1054760476}
-  m_CullTransparentMesh: 0
 --- !u!1 &1057666840
 GameObject:
   m_ObjectHideFlags: 0
@@ -10575,7 +10575,7 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 22416994, guid: 86bd66a1aad581444a3c8b4999ca67b1,
     type: 2}
   m_PrefabInternal: {fileID: 1532396474}
-  m_GameObject: {fileID: 1054760476}
+  m_GameObject: {fileID: 677172494}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -11707,7 +11707,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86bd66a1aad581444a3c8b4999ca67b1, type: 2}
-  m_RootGameObject: {fileID: 1054760476}
+  m_RootGameObject: {fileID: 677172494}
   m_IsPrefabAsset: 0
 --- !u!1 &1537740679
 GameObject:
