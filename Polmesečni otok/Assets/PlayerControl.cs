@@ -22,5 +22,7 @@ public class PlayerControl : MonoBehaviour {
                 //stop focus object
             }
         }
-	}
+    }
+    
+     
 }

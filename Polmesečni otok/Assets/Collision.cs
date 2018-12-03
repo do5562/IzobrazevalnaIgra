@@ -7,15 +7,15 @@ public class Collision : MonoBehaviour {
     public  int counter;
     public Text scoreText;
     public Text Fulltext;
-    
+    public SpriteRenderer rend;
 
     private void Start()
     {
-        counter = 0;
+        
         scoreText.text = " ";
         Fulltext.text = " ";
         SetScoreText();
-        
+        rend = gameObject.GetComponent<SpriteRenderer>();
         //skret= RFAIPP_Toilet_Closed.GetComponent<Collider>();
         //papirCol = Papir.GetComponent<Collider>();
     }
@@ -24,16 +24,7 @@ public class Collision : MonoBehaviour {
         //Debug.Log(counter);
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag ("Destroyables"))
-        {
-            other.gameObject.SetActive(false);
-            counter += 1;
-            SetScoreText();
-        }
-        
-    }
+    
     
     public void SetScoreText()
     {
