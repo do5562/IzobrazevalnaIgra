@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Moving : MonoBehaviour {
     //public Vector3 vect;
-    Rigidbody m_Rigidbody;
+    
     public int m_Speed = 20;
     public float r_Speed = 50.0f;
     public GameObject player;
@@ -15,17 +15,18 @@ public class Moving : MonoBehaviour {
     {
         animator = player.GetComponent<Animator>();
         //Fetch the Rigidbody component you attach from your GameObject
-        m_Rigidbody = GetComponent<Rigidbody>();
+        
         //Set the speed of the GameObject
         
     }
     void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow))
         {
-            Debug.Log("SHOULD WORK");
+            
             animator.SetBool("isPressed", true);
         }
+        
         else
         {
             animator.SetBool("isPressed", false);

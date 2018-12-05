@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class Pomagac : MonoBehaviour {
     public GameObject igralec;
-    bool isOpen = false;
     public Button bt1;
     public Text displayText;
     private Collision skripta_igralca;
@@ -71,10 +70,6 @@ public class Pomagac : MonoBehaviour {
 		
 	}
     
-    private void OnMouseDown()
-    {
-        isOpen = true;
-     
-    }
+    
 
 }
