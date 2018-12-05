@@ -16,6 +16,7 @@ public class Moving : MonoBehaviour {
     
     public Collider col;
     public int tocke;
+
     void Start()
     {
         animator = player.GetComponent<Animator>();
