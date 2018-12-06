@@ -3,6 +3,63 @@ guid: b92407a9783a8c245a8905a3437f6a6b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bridge
+    100004: Ground
+    100006: Mage_circle
+    100008: River
+    100010: Rock
+    100012: Rock2
+    100014: Rock3
+    100016: Rock4
+    100018: Rock5
+    400000: //RootNode
+    400002: Bridge
+    400004: Ground
+    400006: Mage_circle
+    400008: River
+    400010: Rock
+    400012: Rock2
+    400014: Rock3
+    400016: Rock4
+    400018: Rock5
+    2100000: Bridge2__Col_psd
+    2100002: Bridge1__Col_psd
+    2100004: Water__Col_psd
+    2100006: Material_001__Col_psd
+    2100008: Stone
+    2100010: Stone__Col_psd
+    2100012: Circle__Col_psd
+    2100014: Circle2__Col_psd
+    2300000: Bridge
+    2300002: Ground
+    2300004: Mage_circle
+    2300006: River
+    2300008: Rock
+    2300010: Rock2
+    2300012: Rock3
+    2300014: Rock4
+    2300016: Rock5
+    3300000: Bridge
+    3300002: Ground
+    3300004: Mage_circle
+    3300006: River
+    3300008: Rock
+    3300010: Rock2
+    3300012: Rock3
+    3300014: Rock4
+    3300016: Rock5
+    4300000: Bridge
+    4300002: River
+    4300004: Ground
+    4300006: Rock
+    4300008: Rock3
+    4300010: Rock4
+    4300012: Rock2
+    4300014: Rock5
+    4300016: Mage_circle
+    7400000: Default Take
+    9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
@@ -56,7 +113,7 @@ ModelImporter:
     secondaryUVPackMargin: 4
     useFileScale: 1
     previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
