@@ -146,8 +146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4371add196979f43826d93225ef05fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  Fulltext: {fileID: 0}
   speed: 10
 --- !u!114 &114231765522724582
 MonoBehaviour:
@@ -160,8 +158,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4371add196979f43826d93225ef05fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  Fulltext: {fileID: 0}
   speed: 10
 --- !u!114 &114957418419111366
 MonoBehaviour:
@@ -174,8 +170,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4371add196979f43826d93225ef05fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  Fulltext: {fileID: 0}
   speed: 10
 --- !u!136 &136172890546401910
 CapsuleCollider:
@@ -184,7 +178,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1118320728590304}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 8.985
   m_Height: 18.01
@@ -197,7 +191,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1374692158276356}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 8.985
   m_Height: 18.01
@@ -210,7 +204,7 @@ CapsuleCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1283033076141740}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 8.985
   m_Height: 18.01
