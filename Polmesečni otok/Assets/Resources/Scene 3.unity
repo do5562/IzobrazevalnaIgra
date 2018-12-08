@@ -2795,6 +2795,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 165643791}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LocalRotation: {x: 0.15854234, y: 0.034061607, z: 0.0054728575, w: -0.9867493}
   m_LocalPosition: {x: -7.0199256, y: -62.55487, z: -138.12663}
@@ -2802,6 +2803,10 @@ Transform:
   m_LocalRotation: {x: -0.033233654, y: 0.9495736, z: 0.29252097, w: 0.10787552}
   m_LocalPosition: {x: -13.163547, y: -18.46269, z: 3.7434134}
 >>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.43402332, y: 0.41777664, z: 0.23799807, w: 0.76186836}
+  m_LocalPosition: {x: 4.4786377, y: -62.534027, z: 0.20967102}
+>>>>>>> parent of 14b9592... popravki Karin
   m_LocalScale: {x: 0.16666667, y: 0.16666667, z: 0.16666667}
   m_Children: []
   m_Father: {fileID: 1171454453}
@@ -3023,6 +3028,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 185613502}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LocalRotation: {x: 0.15854234, y: 0.034061607, z: 0.0054728575, w: -0.9867493}
   m_LocalPosition: {x: -7.0199256, y: -62.55487, z: -138.12663}
@@ -3030,6 +3036,10 @@ Transform:
   m_LocalRotation: {x: 0.3233928, y: 0.5906915, z: 0.27904814, w: -0.68456763}
   m_LocalPosition: {x: 3.2236633, y: -23.942413, z: -6.5059156}
 >>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.43402332, y: 0.41777664, z: 0.23799807, w: 0.76186836}
+  m_LocalPosition: {x: 36.64685, y: -69.58934, z: -8.935919}
+>>>>>>> parent of 14b9592... popravki Karin
   m_LocalScale: {x: 0.16666669, y: 0.16666666, z: 0.16666669}
   m_Children: []
   m_Father: {fileID: 1171454453}
@@ -3490,6 +3500,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 231012128}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LocalRotation: {x: 0.15854234, y: 0.034061607, z: 0.0054728575, w: -0.9867493}
   m_LocalPosition: {x: -7.0199256, y: -62.55487, z: -138.12663}
@@ -3497,6 +3508,10 @@ Transform:
   m_LocalRotation: {x: 0.28724173, y: 0.6610287, z: 0.30502945, w: -0.62248725}
   m_LocalPosition: {x: 3.2236633, y: -23.942413, z: -6.5059156}
 >>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.43402332, y: 0.41777664, z: 0.23799807, w: 0.76186836}
+  m_LocalPosition: {x: -8.688502, y: -86.739334, z: -7.523229}
+>>>>>>> parent of 14b9592... popravki Karin
   m_LocalScale: {x: 0.16666667, y: 0.16666667, z: 0.16666667}
   m_Children: []
   m_Father: {fileID: 1171454453}
@@ -5543,6 +5558,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 323530317}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LocalRotation: {x: 0.15854234, y: 0.034061607, z: 0.0054728575, w: -0.9867493}
   m_LocalPosition: {x: -7.0199256, y: -62.55487, z: -138.12663}
@@ -5550,6 +5566,10 @@ Transform:
   m_LocalRotation: {x: -0.033233654, y: 0.9495736, z: 0.29252097, w: 0.10787552}
   m_LocalPosition: {x: -13.163547, y: -18.46269, z: 3.7434134}
 >>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.43402332, y: 0.41777664, z: 0.23799807, w: 0.76186836}
+  m_LocalPosition: {x: 36.64685, y: -69.58934, z: -8.935919}
+>>>>>>> parent of 14b9592... popravki Karin
   m_LocalScale: {x: 0.16666672, y: 0.16666669, z: 0.16666673}
   m_Children: []
   m_Father: {fileID: 1171454453}
@@ -8858,6 +8878,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 534468720}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LocalRotation: {x: 0.15854234, y: 0.034061607, z: 0.0054728575, w: -0.9867493}
   m_LocalPosition: {x: -7.0199256, y: -62.55487, z: -138.12663}
@@ -8865,6 +8886,10 @@ Transform:
   m_LocalRotation: {x: -0.033233654, y: 0.9495736, z: 0.29252097, w: 0.10787552}
   m_LocalPosition: {x: -13.163547, y: -18.46269, z: 3.7434134}
 >>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.43402332, y: 0.41777664, z: 0.23799807, w: 0.76186836}
+  m_LocalPosition: {x: -22.153616, y: -106.41292, z: -66.70575}
+>>>>>>> parent of 14b9592... popravki Karin
   m_LocalScale: {x: 0.16666667, y: 0.16666667, z: 0.16666667}
   m_Children: []
   m_Father: {fileID: 1171454453}
@@ -10150,6 +10175,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 635620557}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LocalRotation: {x: 0.15854234, y: 0.034061607, z: 0.0054728575, w: -0.9867493}
   m_LocalPosition: {x: -7.0199256, y: -62.55487, z: -138.12663}
@@ -10157,6 +10183,10 @@ Transform:
   m_LocalRotation: {x: -0.033233654, y: 0.9495736, z: 0.29252097, w: 0.10787552}
   m_LocalPosition: {x: -13.163547, y: -18.46269, z: 3.7434134}
 >>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.43402332, y: 0.41777664, z: 0.23799807, w: 0.76186836}
+  m_LocalPosition: {x: 36.64685, y: -69.58934, z: -8.935919}
+>>>>>>> parent of 14b9592... popravki Karin
   m_LocalScale: {x: 0.16666667, y: 0.16666667, z: 0.16666667}
   m_Children: []
   m_Father: {fileID: 1171454453}
@@ -19121,6 +19151,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 962702228}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LocalRotation: {x: 0.15854234, y: 0.034061607, z: 0.0054728575, w: -0.9867493}
   m_LocalPosition: {x: -7.0199256, y: -62.55487, z: -138.12663}
@@ -19128,6 +19159,10 @@ Transform:
   m_LocalRotation: {x: -0.033233654, y: 0.9495736, z: 0.29252097, w: 0.10787552}
   m_LocalPosition: {x: -13.163547, y: -18.46269, z: 3.7434134}
 >>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.43402332, y: 0.41777664, z: 0.23799807, w: 0.76186836}
+  m_LocalPosition: {x: 36.64685, y: -69.58934, z: -8.935919}
+>>>>>>> parent of 14b9592... popravki Karin
   m_LocalScale: {x: 0.16666667, y: 0.16666667, z: 0.16666667}
   m_Children: []
   m_Father: {fileID: 1171454453}
@@ -25542,6 +25577,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1297580273}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LocalRotation: {x: 0.15854234, y: 0.034061607, z: 0.0054728575, w: -0.9867493}
   m_LocalPosition: {x: -7.0199256, y: -62.55487, z: -138.12663}
@@ -25549,6 +25585,10 @@ Transform:
   m_LocalRotation: {x: 0.38368452, y: 0.10165004, z: 0.042539664, w: -0.91686636}
   m_LocalPosition: {x: 9.147471, y: -19.084824, z: -19.156317}
 >>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.43402332, y: 0.41777664, z: 0.23799807, w: 0.76186836}
+  m_LocalPosition: {x: 36.64685, y: -69.58934, z: -8.935919}
+>>>>>>> parent of 14b9592... popravki Karin
   m_LocalScale: {x: 0.16666667, y: 0.16666667, z: 0.16666667}
   m_Children: []
   m_Father: {fileID: 1171454453}
@@ -30173,7 +30213,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1300691053}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 765.7, y: 116.7, z: 382.3}
+  m_LocalPosition: {x: 765.7, y: 116.7, z: 302.6}
   m_LocalScale: {x: 2.754, y: 2.4264, z: 2.2671}
   m_Children: []
   m_Father: {fileID: 0}
@@ -36979,6 +37019,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1451330587}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LocalRotation: {x: 0.15854234, y: 0.034061607, z: 0.0054728575, w: -0.9867493}
   m_LocalPosition: {x: -7.0199256, y: -62.55487, z: -138.12663}
@@ -36986,6 +37027,10 @@ Transform:
   m_LocalRotation: {x: -0.033233654, y: 0.9495736, z: 0.29252097, w: 0.10787552}
   m_LocalPosition: {x: -13.163547, y: -18.46269, z: 3.7434134}
 >>>>>>> Stashed changes
+=======
+  m_LocalRotation: {x: -0.43402332, y: 0.41777664, z: 0.23799807, w: 0.76186836}
+  m_LocalPosition: {x: 36.64685, y: -69.58934, z: -8.935919}
+>>>>>>> parent of 14b9592... popravki Karin
   m_LocalScale: {x: 0.16666667, y: 0.16666667, z: 0.16666667}
   m_Children: []
   m_Father: {fileID: 1171454453}
